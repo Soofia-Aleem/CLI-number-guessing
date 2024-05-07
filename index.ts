@@ -8,7 +8,7 @@ import inquirer from "inquirer";
 
 const randomNumber = Math.floor(Math.random() *5+1);
 
-console.log("welcome to number Guessing Game ")
+console.log("welcome to number Guessing Game ");
 const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
